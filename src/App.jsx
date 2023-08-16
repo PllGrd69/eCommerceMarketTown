@@ -5,6 +5,7 @@ function App() {
   return (
     <div>
       <h1>holis {API_URL} </h1>
+      <p>Development site</p>
     </div>
   )
 }
