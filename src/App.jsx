@@ -1,12 +1,10 @@
-import { useState } from 'react'
-
+import { API_URL } from "../env"
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <div>
-      <h1>holis</h1>
+      <h1>holis {API_URL} </h1>
     </div>
   )
 }
